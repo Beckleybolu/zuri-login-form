@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: poppins,;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(237, 77, 77);
+    background-image: url(bg-intro-desktop.png);
+    height: 100vh;
+    width: 100%;
+    max-width: 1440px;
+    
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 150px;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+
+
+.intoduction{
+    max-width: 900px;
+}
+
+
+.word{
+    color: white;
+    margin-top: 50px;
+    margin-left: 120px;
+    width: 100%;
+    margin-bottom: 30px;
+    max-width: 400px;
+    font-weight: 700;
+    font-size: 40px;
+   
+   
+}
+
+.word-2{
+    color: white;
+    margin-left: 120px;
+    width:100%;
+    font-size: 15px;
+    margin-top: 0;
+    max-width: 370px;
+    line-height:1.5;
+   
+}
+/*registration form */
+
+
+.registration-tag{
+   max-width: 900px;
+}
+
+/*this is input and registration*/
+
+
+.registration-tag{
+   width: 400px;
+   align-content: center;
+   justify-content: center;
+   margin-left: 15%;
+   margin-top:30px;
+}
+
+
+.coupon{
+    margin-bottom: 10px;
+}
+
+.coupon p{
+    background-color: hsl(277, 79%, 35%);
+    color: #fff;
+    padding: 10px 30px;
+    text-align: center;
+    font-size: 13px;
+    border-radius: 5px;
+}
+.coupon span{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.text-input{
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(219, 210, 210);
+   
+}
+
+::placeholder{
+    padding-left: 5px;
+    
+}
+
+
+.log-form{
+    background-color: #fff;
+    border-radius: 5px;
+    padding-top:10px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 40px;
+}
+
+
+
+.free-trial{
+    background-color: hsl(154, 59%, 51%);
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 8px;
+    margin-top: 10px;
+    width: 100%;
+    color: #fff;
+    font-family: poppins;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 12px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.terms{
+    text-align: center;
+    font-size: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+    color: rgb(179, 172, 172);
+}
+
+.terms span{
+    color: rgb(255, 0, 0);
+}
+
+
+
+/*phone media query*/
+
+@media(max-width:700px){
+
+    .container{
+      display: flex;
+      flex-direction: column;
+    }
+
+
+
+    .registration-tag{
+        align-content: center;
+        justify-content: center;
+    }
+
+
+    .registration-tag{
+        width: 300px;
+        align-content: center;
+        justify-content: center;
+        margin-left: 10%;
+        margin-top:30px;
+     }
+
+
+     #intoduction{
+        max-width: 700px;
+        text-align: center;
+
+        margin-right: 40%;
+     }
+
+
+     .coupon p{
+        background-color: hsl(277, 79%, 35%);
+        color: #fff;
+        padding: 30px 30px;
+        text-align: center;
+        font-size: 15px;
+        border-radius: 5px;
+
+    }
+
+    }
